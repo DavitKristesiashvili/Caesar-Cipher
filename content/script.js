@@ -5,7 +5,7 @@ function checking() {
     else {
         document.getElementById("results").onclick = function () { decodeNoShift() };
         document.getElementById("code").value = " ";
-    }  
+    }   
 }
 
 

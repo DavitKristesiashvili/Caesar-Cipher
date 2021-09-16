@@ -46,7 +46,7 @@ function encodeNoShift() {
     var table = document.getElementById("datas");
     table.innerHTML = "";
     var tr = "";
-    for (let j = 0; j < 25; j++) {
+    for (let j = 0; j < 25; j++) { 
         code++;
         for (let i = 0; i < str.length; i++) {
             var cmn = str.charCodeAt(i);

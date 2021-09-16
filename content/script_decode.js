@@ -58,7 +58,7 @@ function decodeNoShift() {
                 if (str.charCodeAt(i) + code <= 90) {
                     ans = ans + String.fromCharCode(parseInt(str.charCodeAt(i)) + code);
                 }
-                else {
+                else { 
                     ans = ans + String.fromCharCode(parseInt(str.charCodeAt(i)) - 26 + code);
                 }
             }
